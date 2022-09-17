@@ -4,9 +4,9 @@ header,section,nav,footer, aside {
 .agrupar {
   text-align: center;
   width:1200px; 
-  margin: 80px auto;
+  margin: 75px auto;
   border:50px solid transparent;
-  padding: 20px;
+  padding: 10px;
   background: #2f2f2f; 
   background-size: auto;
   background-blend-mode: 100px }
@@ -19,22 +19,24 @@ header,section,nav,footer, aside {
     display: inline-block;
   }
 .aside {
-  background: #00000
+  background: transparent;
 }
 .nav {
-  background: #000000;
-  border-top: 50px solid transparent;
+  background: #2f2f2f;
+  text-anchor: bold;
+  text-decoration-color: #ffffff
+  border-top: 25px solid transparent;
   color: #000000;
   padding: 5px 15px;
   }
   .nav li {
     list-style:none;
-    padding: 5px;
-    font:bold 18px montserrat;
+    padding: 30px;
+    font:bold 30px montserrat;
     display: inline-block;
   }
 .banner {
-  background: #000000;
+  background: #2f2f2f;
   display: block;
   border: 50px solid color:#ffffff;
   align-content: center;
@@ -62,13 +64,13 @@ header,section,nav,footer, aside {
     font:bold 18px montserrat;
     }
 .footer {
-  background: #000000;
+  background: #2f2f2f;
   color:#ffffff;
   clear: both;
   }
   .footer li{
     list-style:none;
-    padding: 5px;
+    padding: 10px;
     font:bold 18px montserrat;
     display: inline-block;
   }
@@ -86,17 +88,17 @@ header,section,nav,footer, aside {
     align-self: center;
   }
  .redes{
-   background: #2f2f2f;
+  background: #2f2f2f;
   color: #ffffff;
  }
 .redes li{
    list-style:none;
-    padding: 5px;
+    padding: 8px;
     font:bold 18px montserrat;
     display: inline-block;
 }
 .logo {
-  max-width: 300px;
+  max-width: 500px;
   align-content: left;
   }
 .article {
@@ -114,11 +116,13 @@ margin-bottom: 30px;
   letter-spacing: 5px;
   background: #2f2f2f;
   color: #ffffff}
-h1 {color: #ffffff;font-family: montserrat;font-size: 25px; font-weight: bold;align-content: center;}
-h2 {color: #ffffff;font-family: montserrat;font-size: 20px; font-weight: bold;align-content: center;}
-h3 {color: #ffffff;font-family: montserrat;font-size: 18px; font-weight: bold;align-content: center;}
-h4 {color: #ffffff;font-family: montserrat;font-size: 16px; font-weight: bold;align-content: center;}
-p {font-family: montserrat;font-size: 20px; font-weight: initial;align-content: center;}
+.h1 {color: #ffffff;font-family: montserrat;font-size: 30px; font-style:bold; align-content: center;}
+.h2 {color: #ffffff;font-family: montserrat;font-size: 25px; font-style: medium; align-content: left; justify-content: left;}
+.h3 {color: #ffffff;font-family: montserrat;font-size: 20px; font-style: thin; align-content: left; justify-content: left;}
+.h4 {color: #ffffff;font-family: montserrat;font-size: 16px; font-style: thin italic; align-content: left;}
+.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify;}
+.p2 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify;}
+.p3 {font-family: montserrat;font-size: 15px; font-style: normal; text-align: justify;}
 .margin {
   margin-bottom: 45px
   }
@@ -217,11 +221,8 @@ p {font-family: montserrat;font-size: 20px; font-weight: initial;align-content: 
   font:bold 18px montserrat;
     align-self: center;
   }
-
-  
 .bg-3 {
   background: #000000
-
 }
 .bg-4 {
   background: #2f2f2f
