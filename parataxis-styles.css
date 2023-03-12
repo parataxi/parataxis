@@ -78,6 +78,17 @@ background: #000000; color: #ffffff;}
     font:bold 18px montserrat;
     display: inline-block;
   }
+.footerasaludsantana {
+  background: #5A97D1;
+  color:#ffffff;
+  clear: both;
+  }
+  .footerasaludsantana li{
+    list-style:none;
+    padding: 10px;
+    font:bold 18px montserrat;
+    display: inline-block;
+  }
 .section {
   background: #ffffff;
   color: #000000;
