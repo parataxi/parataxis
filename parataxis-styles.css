@@ -39,7 +39,7 @@ background: #000000; color: #ffffff;}
     display: inline-block;
   }
 .banner {
-  background: #2f2f2f;
+  background: #ffffff;
   display: block;
   border: 50px solid color:#ffffff;
   align-content: center;
@@ -78,8 +78,8 @@ background: #000000; color: #ffffff;}
     display: inline-block;
   }
 .section {
-  background: #2f2f2f;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   margin-bottom:50px;
   width: 100%;
   border:5px, color:#ffffff; 
@@ -105,7 +105,8 @@ background: #000000; color: #ffffff;}
   align-content: left;
   }
 .article {
-background: #2f2f2f;
+background: #ffffff;
+color:#000000
 padding: 50px;
 margin-bottom: 30px;
 }
