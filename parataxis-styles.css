@@ -147,7 +147,7 @@ margin-bottom: 30px;
     display: inline-block;
     align-self: center;
   }
-.ahumanidades {background-image: url(ah.png);
+.ahumanidades {background: #ffffff;
   }
 .ahumanidades li{ list-style:none;
     padding: 5px;
@@ -159,7 +159,8 @@ margin-bottom: 30px;
   font:bold 18px montserrat;
     align-self: center;
   } 
-.asalud{background-image: url(acs.png);
+.asalud{background: #ffffff;
+	color:#000000
   }
 .asaludsantana{
 	    padding: 25px;
@@ -186,8 +187,8 @@ background:#5A97D1}
     align-self: center;
   }
  .anaturalesnina{ 
-  background: #2f2f2f;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   margin-bottom:50px;
   width: 100%;
   border:5px, color:#ffffff; 
@@ -196,7 +197,8 @@ background:#5A97D1}
   font:bold 18px montserrat;
     align-self: center;
   } 
-.aformales{background-image: url(acf.png);
+.aformales{background: #ffffff;
+	color:#000000
   }
 .aformales li{list-style:none;
     padding: 5px;
@@ -208,7 +210,8 @@ background:#5A97D1}
   font:bold 18px montserrat;
     align-self: center;
   }
-.asociales{background-image: url(acss.png);
+.asociales{background: #ffffff;
+	color:#000000
   }
 .asociales li{list-style:none;
     padding: 5px;
@@ -220,7 +223,8 @@ background:#5A97D1}
   font:bold 18px montserrat;
     align-self: center;
   }
-.aingenierias{background-image: url(ai.png);
+.aingenierias{background: #ffffff;
+	color:#000000
   }
 .aingenierias li{list-style:none;
     padding: 5px;
