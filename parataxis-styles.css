@@ -164,6 +164,7 @@ margin-bottom: 30px;
   }
 .asaludsantana{
 background-image: url(acsmda.png);
+	background-image: no repeat;
 	color: #000000;
     list-style:none;
     padding: 10px;
