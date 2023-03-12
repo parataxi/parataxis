@@ -162,13 +162,17 @@ margin-bottom: 30px;
 .asalud{background: #ffffff;
 	color:#000000
   }
-.asaludsantana li{
-	    padding: 25px;
-	font:bold 14px montserrat;
-    display: inline-block;
-    align-self: center;
-background:#5A97D1
+.asaludsantana{
+background:#5A97D1;
+	color: #000000;
+	clear: both;
 }
+  .asaludsantana li{
+    list-style:none;
+    padding: 10px;
+    font:bold 18px montserrat;
+    display: inline-block;
+  }
 .asalud li{list-style:none;
     padding: 5px;
     font:bold 18px montserrat;
