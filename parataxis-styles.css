@@ -47,10 +47,11 @@ background: #000000; color: #ffffff;}
   width: 100%
   }
   .banner li {
-    border:50px solid color: #000000;
+    border:50px solid color: transparent;
     list-style:none;
     padding: 5px;
     font:bold 18px montserrat;
+	  color:#000000
     }
 .imagenes{
   background:transparent;
