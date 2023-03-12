@@ -3,13 +3,15 @@ header,section,nav,footer, aside {
   display: block;}
 .agrupar {
   text-align: center;
-  width:1200px; 
-  margin: 75px auto;
   border:50px solid transparent;
-  padding: 10px;
-  background: #2f2f2f; 
-  background-size: auto;
-  background-blend-mode: 100px }
+	width:1200px; 
+	margin: 75px auto;
+	border:50px solid transparent;
+	padding: 10px;
+	background: #ffffff; 
+	background-size: auto;
+	background-blend-mode: 100px
+			}
 .header {
   background: #2f2f2f;
   color:#000000}
@@ -19,16 +21,17 @@ header,section,nav,footer, aside {
     display: inline-block;
   }
 .aside {
-  background: transparent;
-}
+background: #000000; color: #ffffff;}
 .nav {
-  background: #2f2f2f;
-  text-anchor: bold;
-  text-decoration-color: #ffffff
-  border-top: 25px solid transparent;
-  color: #000000;
-  padding: 5px 15px;
-  }
+			background: #1E22AA;
+			text-anchor: bold;
+			text-decoration-color: #ffffff;
+			border-top: 25px;
+			padding: 5px 15px;
+			font:bold 30px montserrat;
+			list-style:none;
+			padding: 50px;
+			}
   .nav li {
     list-style:none;
     padding: 30px;
