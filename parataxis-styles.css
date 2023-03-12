@@ -126,7 +126,7 @@ margin-bottom: 30px;
   max-height: 
   255px;padding-top: 15px;
   padding-bottom: 15px;
-  border-radius: 0
+  border-radius: 0;
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
@@ -174,7 +174,7 @@ margin-bottom: 30px;
 	color:#000000
   }
 .asaludsantana{
-background: #ffffff;
+background-image:url(acsmda.png);
 	background-image: no repeat;
 	color: #000000;
     list-style:none;
