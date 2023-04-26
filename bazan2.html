@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Parataxis</title>
+	<meta name="description" content="Este es un catálogo de vinculación entre empresas de diferentes industrias "/>
+	<meta name="author" content="Rebeca Ortiz"/>
+	<meta name="keywords" content="parataxis,vinculación,industria,empresa,ciencia,investigación, catálogo"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.agrupar {
+			width:1200px; 
+			margin: 75px auto;
+			border:50px solid transparent;
+			padding: 10px;
+			background: #ffffff; 
+			background-size: auto;
+			background-blend-mode: 100px
+			}
+		header{
+			background: #2f2f2f; color: #ffffff; padding: 10px;
+			align-items: center; 
+			background-color: #2f2f2f
+			background-size:auto;
+			}
+		.logo{
+			max-height: 200px;
+			max-width: 200px;
+			align-items:center;
+			background: #2f2f2f
+			}
+		nav {
+			max-height: 70px;
+			background: #1E22AA;
+			text-anchor: bold;
+			text-decoration-color: #ffffff;
+			border-top: 25px;
+			padding: 5px 15px;
+			font:bold 20px montserrat;
+			list-style:none;
+			padding: 50px;
+			}
+		.nav li{
+			display: inline-block;
+			align-items: center;
+			}
+		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+	 		}
+		aside{color:#000000;
+			  margin: 70px;  
+			  padding: 25px;
+			  max-width:95%; text-align: right; align-content: center; background: #6567AB; background-size: margin;
+			}
+		.section{
+			color: #000000; margin: 20px; padding: 30px; max-width:95%; 
+		}
+		footer{
+			background: #2f2f2f; color: #ffffff; clear:both;
+			} 
+		.footer li{
+			list-style:none;
+			padding: 10px;
+			font:bold 18px montserrat;
+			display: inline-block;
+					}
+		.h1 {color: #000000;font-family: montserrat;font-size: 50px; font-stretch: bold; font-style: italic; align-content: left; padding-top:50px; padding-bottom: 50PX;}
+		.h2 {color: #000000;font-family: montserrat;font-size: 35px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 25px; font-style: italic; align-content: center; padding: 25px;}
+		.h44{color: #000000;font-family: montserrat;font-size: 20px; font-style: thin; align-content: center;}
+		.h4 {color: #ffffff;font-family: montserrat;font-size: 20px; font-style: thin; align-content: center;}
+		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify; padding: 20px;}
+		.p2 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify; padding: 20px;}
+		.p3 {font-family: montserrat;font-size: 15px; font-style: normal; text-align: justify; padding: 20px;}
+		.article{
+			background: #ffffff;
+			padding: 50px;
+			margin-bottom: 30px;
+			font-family: montserrat;
+			font-size: 20px
+				}
+		.banner{
+  			background: transparent;
+  			display: block;
+  			border: 50px solid color:#ffffff;
+  			align-content: center;
+ 			 padding: 50px;
+  			width: 100%
+  				}
+  		.banner li {
+    		border:50px solid color: #000000;
+    		list-style:none;
+   			padding: 5px;
+    		font:bold 18px montserrat;
+					}
+		.aconocimiento{
+			background: "fondooo.png"
+			background-image: "fondooo.png";
+			padding: 30px;
+			}
+			.aconocimiento li{ 
+				list-style:none;
+				padding:15px;
+				font:bold 18px montserrat;
+				display: inline-block;
+				align-self: center;
+			}
+  		.ahumanidades li{ 
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  					}
+ 		.ahumanidades p{ 
+ 			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    				} 
+		.asalud li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+   			display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+ 		 .asalud p{ 
+ 		 	padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.anaturales li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+    				}
+		.aformales li{
+			list-style:none;
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		background-border-color: #efefca
+    			}
+  		.aformales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.asociales li{
+    		padding: 25px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+  		.asociales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+  		.asociales li{
+  			list-style:none;
+  			padding: 5px;
+  			font:bold 18px montserrat;
+  			display: inline-block;
+  			align-self: center;
+  					}
+		.aingenierias li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+		.aingenierias p{ 
+			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    		list-style: none;
+  				}
+  		.buscar {
+  			max-height: 255px;
+  			padding-top: 15px;
+  			padding-bottom: 15px;
+  			border-radius: 0
+  			margin-bottom: 0;
+  			font-size: 12px;
+  			letter-spacing: 5px;
+  			background: #2f2f2f;
+  			color: #ffffff}
+  		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+  				}
+  		.aparataxis{
+			color: #000000; 
+			clear:both;
+			font-size: 30px;
+			font-family: montserrat;
+			height: 500px;
+			page-break-after: 25px;
+			page-break-before: 25px;
+			padding-top: 100px;
+			padding-bottom: 100px
+		}
+  	</style>
+</head>
+<body class="agrupar">
+	<header class="header">
+		<div>
+			<ul class="logo">
+				<a class="logo-brand" href="index.html">
+					<img src="logo2web.png" class="logo">
+				</a>
+			</ul>
+		</div>
+	</header>
+	<nav id=nav>
+		<ul class="nav">
+			<li>
+								<a href="index.html"> Inicio </a>
+            				</li>
+            				<li>
+								<a href="https://form.123formbuilder.com/6181238/form">						
+									Conócenos
+								</a>
+							</li>
+            				<li>
+            					<a href="https://form.123formbuilder.com/6181238/form"> 
+            						Contáctanos 
+            					</a>
+            				</li>
+            				<li>
+            					<a href="casosdeexito.html">
+            						Casos de éxito
+            					</a>
+            				</li>
+			<li class="nav">
+				<form class="d-flex" action="index_parataxis" action="http://www.google.com/search" class="buscar">
+					<td width="50%" align="center">
+						<input type="text" name="q" value="">
+					</td>
+					<button class="btn btn-outline-success" class="navbar-nav" type="submit">
+						Buscar
+					</button>
+				</form>
+			</li>
+		</ul>
+	</nav>
+	<section class="section">
+		<article>
+			<h1 class="h1"> 
+
+			</h1>
+			<p class="p1">
+				El estudio de género puede trasladarse al ámbito laboral. Dentro del ámbito laboral la división sexual o por género del trabajo asigna roles de acuerdo al género y esto depende totalmente de la cultura. 
+			</p>
+			<p class="p1">
+				Explica que se hayan reservado a la mujer los puestos más alejados del poder de decisión y prolongado los hábitos hogareños, adjudicándole las tareas asimilables y más rutinarias, menos creativas y escasamente valoradas, alejándolas de los empleos técnicos, con alto contenido tecnológico o con las mejores perspectivas de desarrollo de carrera; la asociación entre trabajo productivo y remunerado y trabajo reproductivo y no remunerado. 
+			</p>
+			<p class="p1">
+				El primer adjudicado históricamente y en la amplia mayoría de las culturas, de manera prioritaria a los hombres y el segundo a las mujeres.Explica que se hayan reservado a la mujer los puestos más alejados del poder de decisión y prolongado los hábitos hogareños, adjudicándole las tareas asimilables y más rutinarias, menos creativas y escasamente valoradas, alejándolas de los empleos técnicos, con alto contenido tecnológico o con las mejores perspectivas de desarrollo de carrera; la asociación entre trabajo productivo y remunerado y trabajo reproductivo y no remunerado. El primer adjudicado históricamente y en la amplia mayoría de las culturas, de manera prioritaria a los hombres y el segundo a las mujeres.
+			</p>
+			<p class="p1">
+				Esta línea de investigación se enfoca en la que tiene el género con los aspectos sociales y humanísticos. Estudiar este tema en particular permite la deconstrucción de conceptos estructurados que pueden ser perjudiciales en un ambiente determinado.
+			</p>
+		</article>
+		<article>
+			<aside class="aside" align="center">
+				<article class="asalud">
+     			 		<h4 class="h44">
+							Dr. Rodrigo Bazán Bonfil
+						</h4>
+						<p class="p3">
+							Actualmente es investigador en el Centro Interdisciplinario de Investigación en Humanidades, adscrito a la UAEM.
+							Pertenece al Sistema Nacional de Investigadores. 
+							Es miembro fundador, desde 2020, del Seminario Interinstitucional de Investigación Semiótica, Literatura y Música de la UAM Azcapotzalco. 
+						</p>
+						<footer class="footer" align="center">
+							<div class="icon-text-text">
+								<ul class="social">
+									<li>
+									<a href="mailto:rgonzalez@uaem.mx?Subject=Vinculación a través de parataxis">
+									<i class="fa fa-envelope-o"></i>
+									</a>
+									</li>
+									<li>
+									<a title="Click para chatear" href="https://www.facebook.com/ramon.gonzalez.1612147" target="_blank" rel="noopener">
+        	  							<!-- telefono de alberto a href="7775344568"-->
+          							<i class="fa fa-facebook">
+          							</i>
+          							</a>
+          							</li>
+          						</ul>
+          					</div> 
+          				</footer>
+				</article>
+			</aside>
+			<p class="p1">
+				El doctor Bazán, líder de esta línea de investigación, consta con más de veinte años de experiencia en el tema. A partir de su experiencia, puede brindar los siguientes servicios: formación de recursos humanos, capacitación y servicio de análisis de grupos de trabajos y políticas de comunicación.
+			</p>
+		</article>
+
+
+
+					<footer class="footer" align="center">
+      	<div>
+      		<h4 class="h4" align="center">
+				Vinculación
+			</h4>
+			<hr width="100%">
+			<p class="p2">
+				Para poder contactar con el lider de esta línea de investigación puede enviar un correo a parataxis.nuup@gmail.com o directamente utilizando las siguientes redes sociales
+			</p>
+     	</div>
+     	<hr width="100%">
+     	<div class="banner-wrapper">
+				<div class="icon-text">
+					<div class="icon-text-icon">
+						<ul class="footer-nav">
+							<li>
+								<a href="index.html"> Inicio </a>
+            				</li>
+            				<li>
+								<a href="https://form.123formbuilder.com/6181238/form">						
+									Conócenos
+								</a>
+							</li>
+            				<li>
+            					<a href="https://form.123formbuilder.com/6181238/form"> 
+            						Contáctanos 
+            					</a>
+            				</li>
+            				<li>
+            					<a href="casosdeexito.html">
+            						Casos de éxito
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            		<div class="icon-text-text">
+            			<ul class="social">
+            				<li>
+            					<a href="mailto:parataxis.nuup@gmail.com?Subject=Vinculación con parataxis">
+            						<i class="fa fa-envelope-o">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.facebook.com/parataxis.nuup/">
+            						<i class="fa fa-facebook">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.instagram.com/parataxis.nuup/">
+            						<i class="fa fa-instagram">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.linkedin.com/in/parataxis-nuup-a9048b228/">
+            						<i class="fa fa-linkedin">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a title="Click para chatear" href="https://api.whatsapp.com/send?phone=7772874694&text=Me%20estoy contactando%20a%20través%20de%20parataxis%20" target="_blank" rel="noopener">
+            						<i class="fa fa-whatsapp">
+            						</i>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+        <footer class="footer" align="center">
+        	<hr>
+        	<p>
+        		<a href="index.html">www.parataxis.com.mx
+        		</a>
+        	</p>
+        </footer>
+        <!-- SCRIPTS -->
+        <script>
+        	$(document).ready(function(){
+        		$('.slider1').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider2').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider3').bxSlider({
+        			mode: 'fade',
+        		});
+        	});
+        </script>
+    </div>
+</body>
+</html>
