@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>parataxis</title>
-	<meta name="descripcion" content="Este sitio web es una plataforma de vinculación entre ciencia e industria"/>
-	<meta charset="utf-8">
-	<meta name="author" content="Rb Ortiz">
-	<meta name="key words" content="vinculación, ciencia, conocimiento, industria, empresas,catalogo">
-	<link rel="stylesheet" href="parataxis-styles.css">
+	<meta charset="utf-8"/>
+	<title>Parataxis</title>
+	<meta name="description" content="Este es un catálogo de vinculación entre empresas de diferentes industrias "/>
+	<meta name="author" content="Rebeca Ortiz"/>
+	<meta name="keywords" content="parataxis,vinculación,industria,empresa,ciencia,investigación, catálogo"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
@@ -17,51 +16,253 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.agrupar {
+			width:1200px; 
+			margin: 75px auto;
+			border:50px solid transparent;
+			padding: 10px;
+			background: #ffffff; 
+			background-size: auto;
+			background-blend-mode: 100px
+			}
+		header{
+			background: #2f2f2f; color: #ffffff; padding: 10px;
+			align-items: center; 
+			background-color: #2f2f2f
+			background-size:auto;
+			}
+		.logo{
+			max-height: 200px;
+			max-width: 200px;
+			align-items:center;
+			background: #2f2f2f
+			}
+		nav {
+			max-height: 70px;
+			background: #1E22AA;
+			text-anchor: bold;
+			text-decoration-color: #ffffff;
+			border-top: 25px;
+			padding: 5px 15px;
+			font:bold 20px montserrat;
+			list-style:none;
+			padding: 50px;
+			}
+		.nav li{
+			display: inline-block;
+			align-items: center;
+			}
+		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+	 		}
+		aside{
+			border-color:#6567AB color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 30%;
+			}
+		footer{
+			background: #2f2f2f; color: #ffffff; clear:both;
+			} 
+		.footer li{
+			list-style:none;
+			padding: 10px;
+			font:bold 18px montserrat;
+			display: inline-block;
+					}
+		.h1 {color: #000000;font-family: montserrat;font-size: 50px; font-stretch: bold; font-style: italic; align-content: left; padding-top:50px; padding-bottom: 50PX;}
+		.h2 {color: #000000;font-family: montserrat;font-size: 35px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 25px; font-style: italic; align-content: center; padding: 25px;}
+		.h4 {color: #000000;font-family: montserrat;font-size: 16px; font-style: thin; align-content: left;}
+		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify;}
+		.p2 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify;}
+		.p3 {font-family: montserrat;font-size: 15px; font-style: normal; text-align: justify;}
+		.article{
+			background: #ffffff;
+			padding: 50px;
+			margin-bottom: 30px;
+			font-family: montserrat;
+			font-size: 20px
+				}
+		.banner{
+  			background: transparent;
+  			display: block;
+  			border: 50px solid color:#ffffff;
+  			align-content: center;
+ 			 padding: 50px;
+  			width: 100%
+  				}
+  		.banner li {
+    		border:50px solid color: #000000;
+    		list-style:none;
+   			padding: 5px;
+    		font:bold 18px montserrat;
+					}
+		.aconocimiento{
+			background: "fondooo.png"
+			background-image: "fondooo.png";
+			padding: 30px;
+			}
+			.aconocimiento li{ 
+				list-style:none;
+				padding:15px;
+				font:bold 18px montserrat;
+				display: inline-block;
+				align-self: center;
+			}
+  		.ahumanidades li{ 
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  					}
+ 		.ahumanidades p{ 
+ 			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    				} 
+		.asalud li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+   			display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+ 		 .asalud p{ 
+ 		 	padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.anaturales li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+    				}
+		.aformales li{
+			list-style:none;
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		background-border-color: #efefca
+    			}
+  		.aformales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.asociales li{
+    		padding: 25px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+  		.asociales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+  		.asociales li{
+  			list-style:none;
+  			padding: 5px;
+  			font:bold 18px montserrat;
+  			display: inline-block;
+  			align-self: center;
+  					}
+		.aingenierias li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+		.aingenierias p{ 
+			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    		list-style: none;
+  				}
+  		.buscar {
+  			max-height: 255px;
+  			padding-top: 15px;
+  			padding-bottom: 15px;
+  			border-radius: 0
+  			margin-bottom: 0;
+  			font-size: 12px;
+  			letter-spacing: 5px;
+  			background: #2f2f2f;
+  			color: #ffffff}
+  		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+  				}
+  		.aparataxis{
+			color: #000000; 
+			clear:both;
+			font-size: 30px;
+			font-family: montserrat;
+			height: 500px;
+			page-break-after: 25px;
+			page-break-before: 25px;
+			padding-top: 100px;
+			padding-bottom: 100px
+		}
+  	</style>
 </head>
-<body>
-	<div class="agrupar">
-		<header class="header">
-			<div class="margin" id="myNavbar">
-				<ul>
-					<a class="logo-brand" href="index.html">
-						<img src="logo2web.png" class="logo">
-					</a>
-				</ul>
-			</div>
-		</header>
-		<nav class="nav">
-			<ul>
-				<li>
-					<a href="index.html"> Inicio </a>
-				</li>
-				<li>
-					<a href="https://form.123formbuilder.com/6181238/form">						
-						Conócenos
-					</a>
-				</li>
-				<li>
-					<a href="casosdeexito.html">
-						Casos de éxito
-					</a>
-				</li>
-				<li>
-					<a href="https://form.123formbuilder.com/6181238/form">
-						Contáctanos
-					</a>
-				</li>
-				<li>
-					<form class="d-flex" action="http://www.google.com/search" class="buscar">
-						<td width="77%" align="center">
-							<input type="text" name="q" value="">
-						</td>
-						<button class="btn btn-outline-success" class="navbar-nav" type="submit">
-						Buscar
-						</button>
-					</form>
-				</li>
+<body class="agrupar">
+	<header class="header">
+		<div>
+			<ul class="logo">
+				<a class="logo-brand" href="index.html">
+					<img src="logo2web.png" class="logo">
+				</a>
 			</ul>
-		</nav>
-	<article class="article">
+		</div>
+	</header>
+	<nav id=nav>
+		<ul class="nav">
+			<li>
+				<a href="index.html"> Inicio </a>
+			</li>
+			<li>
+				<a href="conocenos.html">						
+					Conócenos
+				</a>
+			</li>
+			<li>
+				<a href="casosdeexito.html">
+					Casos de éxito
+				</a>
+			</li>
+			<li>
+				<a href="https://form.123formbuilder.com/6181238/form">						
+					Contáctanos
+				</a>
+			</li>
+			<li class="nav">
+				<form class="d-flex" action="index_parataxis" action="http://www.google.com/search" class="buscar">
+					<td width="50%" align="center">
+						<input type="text" name="q" value="">
+					</td>
+					<button class="btn btn-outline-success" class="navbar-nav" type="submit">
+						Buscar
+					</button>
+				</form>
+			</li>
+		</ul>
+	</nav>
+	<section>
+		<article class="article">
+				<hr size="5o%">
+				<h1 class="h1">
+					Parataxis
+				</h1>
+				<p class="p1">	
+					Parataxis es un catálogo que permite la visualización de la ciencia que se desarrolla en el estado de Morelos y fomenta la vinculación de la misma con empresas de diversos sectores industriales.
+				</p>
+			</article>
+			<article class="article">
 				<hr width="25%">
 				<h2 class="h2">
 					Misión
@@ -69,6 +270,8 @@
 				<p class="p2">
 					En parataxis buscamos generar un vinculo entre la investigación que se produce en todas las áreas del conocimiento y las empresas nacionales y transnacionales. 
 				</p>
+			</article>
+			<article class="article">
 				<hr width="25%">
 				<h2 class="h2">
 					Visión
@@ -76,14 +279,18 @@
 				<p class="p2">
 				Estímular el crecimiento industrial y desarrollo de nuevos proyectos que eventualmente permitan la sustentabilidad del estado. 
 				</p>
-				<section>
-					<video autoplay="true" loop="true" width="640" height="360" controls muted>
-						<source src="Video parataxis.mp4" type="video/mp4">
-					</video>
-					<hr>
-				</section>
 			</article>
-		<footer class="footer">
+			<article class="article">
+				<video autoplay="true" loop="true" width="640" height="360" controls muted>
+					<source src="Video parataxis.mp4" type="video/mp4">
+				</video>
+				<hr>
+			</article>
+			<p class="p2">
+				Si deseas contactar con parataxis puedes ir a la sección de contáctanos o utilizar cualquiera de las redes sociales que se encuentran en el banner.
+			</p>
+		</section>
+	<footer class="footer" align="center">
 			<hr>
 			<div class="banner-wrapper">
 				<div class="icon-text">
@@ -92,6 +299,10 @@
 							<li>
 								<a href="index.html"> Inicio </a>
             				</li>
+            					<li>
+            						<a href="conocenos.html">						
+										Conócenos</a>
+								</li>
             				<li>
             					<a href="https://form.123formbuilder.com/6181238/form"> 
             						Contáctanos 
@@ -104,8 +315,8 @@
             				</li>
             			</ul>
             		</div>
-            		<div class="icon-text-text">
-            			<ul class="social">
+            		<div class="asociales">
+            			<ul class="asociales.li">
             				<li>
             					<a href="mailto:parataxis.nuup@gmail.com?Subject=Vinculación con parataxis">
             						<i class="fa fa-envelope-o">
@@ -141,26 +352,27 @@
             	</div>
             </div>
         </footer>
-        <footer class="second-footer">
+        <footer class="footer" align="center">
         	<hr>
         	<p>
         		<a href="index.html">www.parataxis.com.mx
         		</a>
         	</p>
         </footer>
-  <!-- SCRIPTS -->
-  <script>
-    $(document).ready(function(){
-      $('.slider1').bxSlider({
-        mode: 'fade',
-      });
-      $('.slider2').bxSlider({
-        mode: 'fade',
-      });
-      $('.slider3').bxSlider({
-        mode: 'fade',
-      });
-    });
-  </script>
+        <!-- SCRIPTS -->
+        <script>
+        	$(document).ready(function(){
+        		$('.slider1').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider2').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider3').bxSlider({
+        			mode: 'fade',
+        		});
+        	});
+        </script>
+    </div>
 </body>
 </html>
