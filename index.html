@@ -38,23 +38,33 @@
 			align-items:center;
 			background: #2f2f2f
 			}
+		
 		nav {
-			max-height: 70px;
-			background: #1E22AA;
-			text-anchor: bold;
-			text-decoration-color: #ffffff;
+   			 max-height: 70px;
+			 background: #1E22AA;
 			color: white;
-			border-top: 25px;
-			padding: 5px 15px;
-			font:bold 20px montserrat;
-			list-style:none;
-			padding: 50px;
-			}
-		.nav li{
-			color: white; 
-			display: inline-block;
-			align-items: center;
-			}
+			    padding: 5px 15px;
+			    font-weight: bold;
+			    font-size: 20px;
+			    font-family: "Montserrat", sans-serif;
+			    list-style: none;
+			    margin: 0;
+			    padding: 0;
+			    text-align: center;
+}
+
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px; /* Agregando un espacio entre elementos */
+    align-items: center; /* No se aplica a elementos <li>, sino a elementos <flex> o <grid> */
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
 		.navbar-nav  li a:hover {
   			color: #1abc9c !important
 	 		}
