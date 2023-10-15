@@ -212,6 +212,7 @@
 		}
   	</style>
 </head>
+	
 <body class="agrupar">
 	<header class="header">
 		<div>
@@ -242,16 +243,18 @@
             						Casos de éxito
             					</a>
             				</li>
-			<li class="nav">
-				<form class="d-flex" action="index_parataxis" action="http://www.google.com/search" class="buscar">
-					<td width="50%" align="center">
-						<input type="text" name="q" value="">
-					</td>
-					<button class="btn btn-outline-success" class="navbar-nav" type="submit">
-						Buscar
-					</button>
-				</form>
+				<li class="nav">
+   				 <form action="https://parataxi.github.io/parataxis/" method="GET">
+					 <label for="busqueda">
+						 <input type="text" id="busqueda" name="q" placeholder="Escribe tu búsqueda aquí">
+						 <button class="btn btn-outline-success navbar-nav" type="submit">Buscar</button>
+					 </label>
+				 </form>
 			</li>
+
+    <div id="search-results">
+        <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
 		</ul>
 	</nav>
 	<body>
