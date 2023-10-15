@@ -18,9 +18,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		.agrupar {
-			width:1200px; 
+			width:1200px;
+			align-content: center; 
 			margin: 75px auto;
-			border:50px solid transparent;
 			padding: 10px;
 			background: #ffffff; 
 			background-size: auto;
@@ -38,7 +38,6 @@
 			align-items:center;
 			background: #2f2f2f
 			}
-		
 		nav {
    			 max-height: 70px;
 			 background: #1E22AA;
@@ -46,30 +45,31 @@
 			    padding: 5px 15px;
 			    font-weight: bold;
 			    font-size: 20px;
-			    font-family: "Montserrat", sans-serif;
+			    font-family: "Montserrat", 
+			    sans-serif;
 			    list-style: none;
 			    margin: 0;
 			    padding: 0;
 			    text-align: center;
 }
-
-
-.nav li {
-    display: inline-block;
-    margin-right: 10px; /* Agregando un espacio entre elementos */
-    align-items: center; /* No se aplica a elementos <li>, sino a elementos <flex> o <grid> */
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-}
-
+		.nav li{
+			color: #ffffff;
+			display: inline-block;
+			margin-right: 10px;
+			align-items: center;
+			}
 		.navbar-nav  li a:hover {
-  			color: #1abc9c !important
+  			color: #1abc9c !important;
 	 		}
+	 	.nav a {
+	 		text-decoration: none;
+	 		color:white;
+	 	}
 		aside{
 			border-color:#6567AB color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 30%;
+			}
+		.aside2{
+			color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 70%;
 			}
 		footer{
 			background: #2f2f2f; color: #ffffff; clear:both;
@@ -81,18 +81,20 @@
 			display: inline-block;
 					}
 		.h1 {color: #000000;font-family: montserrat;font-size: 30px; font-style: bold; align-content: center; padding-top:50px; padding-bottom: 50PX;}
-		.h2 {color: #000000;font-family: montserrat;font-size: 28px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
-		.h3 {color: #000000;font-family: montserrat;font-size: 26px; font-style: italic; align-content: center; padding: 25px;}
-		.h4 {color: #000000;font-family: montserrat;font-size: 24px; font-style: thin; align-content: left;}
-		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify;}
+		.h2 {color: #000000;font-family: montserrat;font-size: 26px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 22px; font-style: italic; align-content: center; padding: 25px;}
+		.h33 {color: #000000;font-family: montserrat;font-size: 22px; font-style: italic; align-content: center; padding: 25px; display: inline-block;}
+		.h4 {color: #000000;font-family: montserrat;font-size: 18px; font-style: thin; align-content: left;}
+		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify; align-items: center; margin:20px}
 		.p2 {font-family: montserrat;font-size: 28px; font-style: normal; text-align: justify;}
-		.p3 {font-family: montserrat;font-size: 26px; font-style: normal; text-align: justify;}
+		.p3 {font-family: montserrat;font-size: 16px; font-style: normal; text-align: justify;}
 		.article{
 			background: #ffffff;
 			padding: 50px;
-			margin-bottom: 30px;
+			margin-bottom: 15px;
 			font-family: montserrat;
-			font-size: 16px
+			font-size: 20px;
+			align-content: center;
 				}
 		.banner{
   			background: transparent;
@@ -123,7 +125,8 @@
   		.ahumanidades li{ 
     		padding: 5px;
     		font:bold 18px montserrat;
-    		display: inline-block;
+    	
+			display: inline-block;
     		align-self: center;
     		list-style:none;
   					}
@@ -238,7 +241,7 @@
 				<a href="index.html"> Inicio </a>
 			</li>
 			<li>
-				<a href="conocenos.html">						
+				<a href="https://form.123formbuilder.com/6181238/form">						
 					Conócenos
 				</a>
 			</li>
@@ -260,25 +263,26 @@
 					 </label>
 				 </form>
 			</li>
-
-    <div id="search-results">
-        <!-- Aquí se mostrarán los resultados de la búsqueda -->
-    </div>
 		</ul>
 	</nav>
-	<section>
-		<article class="aparataxis">
+	<section class="agrupar">
+		<article class="agrupar">
 			<h1 class="h1">
 				Parataxis
 			</h1>
-			<p class="p1">
+			<p class="p1" >
 				Parataxis es un catálogo que permite la visualización de la ciencia que se desarrolla en el estado de Morelos y que promueve la vinculación entre ella y la industria.
 			</p>
 		</article>
-		<article>
+				<hr>	
+				<h2 class="h2"> 
+					Áreas de conocimiento
+				</h2>
+				<br>
+			</div>
 			<ul class="aconocimiento">
 				<li>
-					<a class="h2" href="cds.html">
+					<a href="cds.html">
 							Ciencias de la salud
 						<img src="acs.png" class="img-responsive margin" style="width: 75%" style="height: 75%" >
 					</a>
@@ -286,7 +290,7 @@
 				</li>
 					<li>
 						
-							<a class="h2" href="cf.html">
+							<a class="" href="cf.html">
 									Ciencias formales
 									<img src="acf.png" class="img-responsive margin" style="width: 75%" style="height: 75%">
 							</a>
@@ -295,7 +299,7 @@
 					</li>
 					<li >
 						
-							<a class="h2" href="cn.html">
+							<a href="cn.html">
 									Ciencias naturales
 			<img src="acn.png" class="img-responsive margin" style="width: 75%"  style="height: 75%">
 							</a>
@@ -304,16 +308,16 @@
 					</li>
 					<li>
 						
-							<a class="h2" href="cs.html">
+							<a href="cs.html">
 									Ciencias sociales
-								<img src="acss.png" class="img-responsive margin" style="width:75%" style="height: 75%" >
+								<img src="acss.png" class="img-responsive margin" style="width:100%" style="height: 75%" >
 							</a>
 						
 					
 					</li>
 					<li>
 						
-							<a class="h2" href="h.html">			
+							<a href="h.html">			
 									Humanidades
 	<img src="ah.png" href="h.html" class="img-responsive margin" style="width:75%"  style="height: 75%">
 							</a>
@@ -322,14 +326,14 @@
 					</li>
 					<li>
 						
-							<a class="h2" href="i.html">
+							<a href="i.html">
 									Ingenierías
 									<img src="ai.png" href="i.html" class="img-responsive margin" style="width: 75%" style="height: 75%">
 							</a>
 						
 					</li>
 				</ul>
-      		</article>
+		</article>
       		<banner class="banner">
 				<div>
 					<div class="container-fluid bg-3">
@@ -403,7 +407,7 @@
       			</div>
       		</banner>
 		</section>
-		<footer class="footer" align="center">
+	<footer class="footer" align="center">
 			<hr>
 			<div class="banner-wrapper">
 				<div class="icon-text">
@@ -413,7 +417,7 @@
 								<a href="index.html"> Inicio </a>
             				</li>
             					<li>
-            						<a href="conocenos.html">						
+            						<a href="https://form.123formbuilder.com/6181238/form">						
 										Conócenos</a>
 								</li>
             				<li>
@@ -489,3 +493,4 @@
     </div>
 </body>
 </html>
+
