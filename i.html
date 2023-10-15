@@ -18,9 +18,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		.agrupar {
-			width:1200px; 
+			width:1200px;
+			align-content: center; 
 			margin: 75px auto;
-			border:50px solid transparent;
 			padding: 10px;
 			background: #ffffff; 
 			background-size: auto;
@@ -39,27 +39,37 @@
 			background: #2f2f2f
 			}
 		nav {
-			max-height: 70px;
-			background: #1E22AA;
-			text-anchor: bold;
-			text-decoration-color: #ffffff;
+   			 max-height: 70px;
+			 background: #1E22AA;
 			color: white;
-			border-top: 25px;
-			padding: 5px 15px;
-			font:bold 20px montserrat;
-			list-style:none;
-			padding: 50px;
-			}
+			    padding: 5px 15px;
+			    font-weight: bold;
+			    font-size: 20px;
+			    font-family: "Montserrat", 
+			    sans-serif;
+			    list-style: none;
+			    margin: 0;
+			    padding: 0;
+			    text-align: center;
+}
 		.nav li{
-			color: white; 
+			color: #ffffff;
 			display: inline-block;
+			margin-right: 10px;
 			align-items: center;
 			}
 		.navbar-nav  li a:hover {
-  			color: #1abc9c !important
+  			color: #1abc9c !important;
 	 		}
+	 	.nav a {
+	 		text-decoration: none;
+	 		color:white;
+	 	}
 		aside{
 			border-color:#6567AB color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 30%;
+			}
+		.aside2{
+			color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 70%;
 			}
 		footer{
 			background: #2f2f2f; color: #ffffff; clear:both;
@@ -71,18 +81,20 @@
 			display: inline-block;
 					}
 		.h1 {color: #000000;font-family: montserrat;font-size: 30px; font-style: bold; align-content: center; padding-top:50px; padding-bottom: 50PX;}
-		.h2 {color: #000000;font-family: montserrat;font-size: 28px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
-		.h3 {color: #000000;font-family: montserrat;font-size: 26px; font-style: italic; align-content: center; padding: 25px;}
-		.h4 {color: #000000;font-family: montserrat;font-size: 24px; font-style: thin; align-content: left;}
-		.p1 {font-family: montserrat;font-size: 30px; font-style: normal; text-align: justify;}
-		.p2 {font-family: montserrat;font-size: 28px; font-style: normal; text-align: justify;}
-		.p3 {font-family: montserrat;font-size: 26px; font-style: normal; text-align: justify;}
+		.h2 {color: #000000;font-family: montserrat;font-size: 26px; font-style: medium; align-content: center; padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 22px; font-style: italic; align-content: center; padding: 25px;}
+		.h33 {color: #000000;font-family: montserrat;font-size: 22px; font-style: italic; align-content: center; padding: 25px; display: inline-block;}
+		.h4 {color: #000000;font-family: montserrat;font-size: 18px; font-style: thin; align-content: left;}
+		.p1 {font-family: montserrat;font-size: 28px; font-style: normal; text-align: justify; align-items: center; margin:20px}
+		.p2 {font-family: montserrat;font-size: 24px; font-style: normal; text-align: justify;}
+		.p3 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify;}
 		.article{
 			background: #ffffff;
 			padding: 50px;
-			margin-bottom: 30px;
+			margin-bottom: 15px;
 			font-family: montserrat;
-			font-size: 16px
+			font-size: 20px;
+			align-content: center;
 				}
 		.banner{
   			background: transparent;
@@ -113,7 +125,8 @@
   		.ahumanidades li{ 
     		padding: 5px;
     		font:bold 18px montserrat;
-    		display: inline-block;
+    	
+			display: inline-block;
     		align-self: center;
     		list-style:none;
   					}
