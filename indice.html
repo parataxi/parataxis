@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Parataxis</title>
+  <meta name="description" content="Este es un catálogo de vinculación entre empresas de diferentes industrias "/>
+  <meta name="author" content="Rebeca Ortiz"/>
+  <meta name="keywords" content="parataxis,vinculación,industria,empresa,ciencia,investigación, catálogo"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+		.agrupar {
+			width:1200px; 
+			margin: 75px auto;
+			border:50px solid transparent;
+			padding: 10px;
+			background: #ffffff; 
+			background-size: auto;
+			background-blend-mode: 100px
+			}
+		header{
+			background: #2f2f2f; color: #ffffff; padding: 10px;
+			align-items: center; 
+			background-color: #2f2f2f
+			background-size:auto;
+			}
+		.logo{
+			max-height: 200px;
+			max-width: 200px;
+			align-items:center;
+			background: #2f2f2f
+			}
+		nav {
+   			 max-height: 70px;
+			 background: #1E22AA;
+			color: white;
+			    padding: 5px 15px;
+			    font-weight: bold;
+			    font-size: 20px;
+			    font-family: "Montserrat", 
+			    sans-serif;
+			    list-style: none;
+			    margin: 0;
+			    padding: 0;
+			    text-align: center;
+			}
+		.nav li{
+			color: #ffffff;
+			display: inline-block;
+			margin-right: 10px;
+			align-items: center;
+			}
+		.navbar-nav  li a:hover {
+  			color: #1abc9c !important;
+	 		}
+	 	.nav a {
+	 		text-decoration: none;
+	 		color:white;
+	 	}
+		aside{color:#000000;
+			  margin: 70px;  
+			  padding: 25px;
+			  max-width:95%; text-align: right; align-content: center; background:  #747474; background-size: margin;
+			}
+		.aside2{
+			color: #000000; margin: 20px; padding: 30px; max-height:page; max-width: 70%;
+			}
+		.section{
+			 background-color: #2f2f2f 80%;color: #000000; margin: 20px; padding: 15px; max-width:95%; 
+		}
+		footer{
+			background: #2f2f2f; color: #ffffff; clear:both;
+			} 
+		.footer li{
+			list-style:none;
+			padding: 10px;
+			font:bold 18px montserrat;
+			display: inline-block;
+					}
+		.h1 {color: #000000;font-family: montserrat;font-size: 24px; font-style:bold; align-content: left; padding-top:50px; padding-bottom: 50px;}
+		.h2 {color: #1E22AA;font-family: montserrat;font-size: 22px; font-style: medium; align-content: center; padding-left:15px ;padding-top: 30px; padding-bottom: 30px;}
+		.h3 {color: #000000;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center;  padding: 25px;}
+    .h31 {color: #EFEEC9;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+    .h32 {color: #4CAC33;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+    .h33 {color: #5A97D1;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+		.h34 {color: #747474;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+    .h35 {color: #6567AB;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+    .h36 {color: #EB642A;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+    .h34 {color: #000000;font-family: montserrat;font-size: 20px; font-style: italic; align-content: center; padding-left:25px;padding: 25px;}
+		.h4 {color: #ffffff;font-family: montserrat;font-size: 18px; font-style: thin; align-content: center;}
+		.p1 {font-family: montserrat;font-size: 20px; font-style: normal; text-align: justify; padding: 20px;}
+		.p2 {font-family: montserrat;font-size: 18px; font-style: normal; text-align: justify; padding: 20px;}
+		.p3 {font-family: montserrat;font-size: 16px; font-style: normal; text-align: justify; padding: 20px;}
+		.article{
+			background: #ffffff;
+			padding: 50px;
+			margin-bottom: 30px;
+			font-family: montserrat;
+			font-size: 20px
+				}
+		.banner{
+  			background: transparent;
+  			display: block;
+  			border: 50px solid color:#ffffff;
+  			align-content: center;
+ 			 padding: 50px;
+  			width: 100%
+  				}
+  		.banner li {
+    		border:50px solid color: #000000;
+    		list-style:none;
+   			padding: 5px;
+    		font:bold 18px montserrat;
+					}
+		.aconocimiento{
+			background: "fondooo.png"
+			background-image: "fondooo.png";
+			padding: 30px;
+			}
+			.aconocimiento li{ 
+				list-style:none;
+				padding:15px;
+				font:bold 18px montserrat;
+				display: inline-block;
+				align-self: center;
+			}
+  		.ahumanidades li{ 
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  					}
+ 		.ahumanidades p{ 
+ 			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    				} 
+		.asalud li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+   			display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+ 		 .asalud p{ 
+ 		 	padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.anaturales li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+    				}
+		.aformales li{
+			list-style:none;
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		background-border-color: #efefca
+    			}
+  		.aformales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+		.asociales li{
+    		padding: 25px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+  		.asociales p{ 
+  			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+  				}
+  		.asociales li{
+  			list-style:none;
+  			padding: 5px;
+  			font:bold 18px montserrat;
+  			display: inline-block;
+  			align-self: center;
+  					}
+		.aingenierias li{
+    		padding: 5px;
+    		font:bold 18px montserrat;
+    		display: inline-block;
+    		align-self: center;
+    		list-style:none;
+  				}
+		.aingenierias p{ 
+			padding:20px;
+  			font:bold 18px montserrat;
+    		align-self: center;
+    		list-style: none;
+  				}
+  		.buscar {
+  			max-height: 255px;
+  			padding-top: 15px;
+  			padding-bottom: 15px;
+  			border-radius: 0
+  			margin-bottom: 0;
+  			font-size: 12px;
+  			letter-spacing: 5px;
+  			background: #2f2f2f;
+  			color: #ffffff}
+  		.navbar-nav  li a:hover {
+  			color: #1abc9c !important
+  				}
+  		.aparataxis{
+			color: #000000; 
+			clear:both;
+			font-size: 30px;
+			font-family: montserrat;
+			height: 500px;
+			page-break-after: 25px;
+			page-break-before: 25px;
+			padding-top: 100px;
+			padding-bottom: 100px
+		}
+		.mosaic-container {
+      background-color: #2f2f2f;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); /* Cambia el número de columnas según desees */
+            grid-gap: 20px; /* Espacio entre las imágenes */
+        }
+
+        .mosaic-item {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .mosaic-item img {
+            width: 70%;
+            height: auto;
+            display: block;
+            shape-margin: 15px;
+        }
+        .img{
+          padding: 30px;
+          align-content: center;
+        }
+</style>
+</head>
+<body class="agrupar">
+  <header class="header">
+    <div>
+      <ul class="logo">
+        <a class="logo-brand" href="index.html">
+          <img src="logo2web.png" class="logo">
+        </a>
+      </ul>
+    </div>
+  </header>
+  <nav id=nav>
+    <ul class="nav">
+      <li>
+        <a href="index.html"> Inicio </a>
+      </li>
+      <li>
+        <a href="conocenos.html">           
+          Conócenos
+        </a>
+      </li>
+      <li>
+        <a href="casosdeexito.html">
+          Casos de éxito
+        </a>
+      </li>
+      <li>
+        <a href="https://form.123formbuilder.com/6181238/form">           
+          Contáctanos
+        </a>
+      </li>
+      <li class="nav">
+        
+        <form class="d-flex" action="http://www.google.com/search" class="buscar">
+          <td width="77%" align="center">
+            <input type="text" name="q" value="">
+          </td>
+          <button class="btn btn-outline-success" class="navbar-nav" type="submit">
+              Buscar
+          </button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+  <section class="section">
+    <h1 class="h1">Índice de contenido</h1>
+    <div class="mosaic-container">
+      <h2 class="h2"> A </h2> 
+      <div class="mosaic-item"> <a class=h31 href="veronica1.html"> Análisis de datos de secuenciación masiva de ADN </a>
+        <img class="img" src="bioinformatica.jpg" style="width: 25%"  style="height: 25%">
+        </div>
+        <h2 class="h2"> B </h2> 
+        <div class="mosaic-item"> <a class=h32 href="nelson.html"> Biotecnología en plantas ornamentales </a>
+            <img class="img" src="biotecnelson.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <h2 class="h2"> E </h2> 
+        <div class="mosaic-item"> <a class=h34 href="alberto1.html"> Energía limpia: Bio-celdas </a>
+            <img class="img" src="energialimpia.png" style="width: 25%"  style="height: 25%">
+        </div>
+         <div class="mosaic-item"> <a class=h34 href="alberto2.html"> Energía limpia: combustible biológico </a>
+            <img class="img" src="combustibleeco.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <div class="mosaic-item" > <a class=h34 href="alfredo.html"> Equipos mecánicos </a>
+            <img class="img" src="mecánica.jpg" style="width: 25%"  style="height: 25%">
+        </div>
+        <div class="mosaic-item"> <a class=h31 href="veronica2.html"> Evaluación de la expresión diferencial de genes y transcritomas de novo </a>
+        <img class="img" src="transcriptomica.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <h1 class="h2"> L </h1> 
+         <div class="mosaic-item" > <a class=h35 href="bazan1.html"> Lírica popular y tradicional </a> 
+            <img class="img" src="rocolabazan.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <h1 class="h2"> M </h1> 
+        <div class="mosaic-item"> <a class=h32 href="nina.html"> Modelado de proteínas </a>
+            <img class="img" src="proteinanina.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <h1 class="h2"> R </h1> 
+        <div class="mosaic-item"><a class=h34 href="arianna1.html"> Redes neuronales </a>
+            <img class="img" src="redesneuronales.png" style="width: 25%"  style="height: 25%">
+        </div>
+       <div class="mosaic-item" > <a class=h35 href="bazan2.html"> Representaciones de género </a> 
+            <img class="img" src="generobazan.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <div class="mosaic-item"> <a class="h33" href="santana.html"> Respuesta inmune de linfocitos T humanos </a>
+            <img class="img" src="santanasangre.png" style="width: 25%"  style="height: 25%">
+        </div>
+        <h1 class="h2"> S </h1> 
+        <div class="mosaic-item"><a class=h34 href="arianna2.html"> Simulación de procesos energéticos </a>
+            <img class="img" src="energiaarianna.png" style="width: 25%"  style="height: 25%">
+        </div>
+         <h1 class="h2"> V </h1> 
+        <div class="mosaic-item"> <a class="h33" href="ramon.html"> Virología Molecular </a>
+            <img class="img" src="virusramon.png" style="width: 25%"  style="height: 25%">
+        </div>
+    </div>
+  </section>
+
+		
+	
+<footer class="footer" align="center">
+			<hr>
+			<div class="banner-wrapper">
+				<div class="icon-text">
+					<div class="icon-text-icon">
+						<ul class="footer-nav">
+							<li>
+								<a href="index.html"> Inicio </a>
+            				</li>
+            					<li>
+            						<a href="https://form.123formbuilder.com/6181238/form">						
+										Conócenos</a>
+								</li>
+            				<li>
+            					<a href="https://form.123formbuilder.com/6181238/form"> 
+            						Contáctanos 
+            					</a>
+            				</li>
+            				<li>
+            					<a href="casosdeexito.html">
+            						Casos de éxito
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            		<div class="asociales">
+            			<ul class="asociales.li">
+            				<li>
+            					<a href="mailto:parataxis.nuup@gmail.com?Subject=Vinculación con parataxis">
+            						<i class="fa fa-envelope-o">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.facebook.com/parataxis.nuup/">
+            						<i class="fa fa-facebook">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.instagram.com/parataxis.nuup/">
+            						<i class="fa fa-instagram">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a href="https://www.linkedin.com/in/parataxis-nuup-a9048b228/">
+            						<i class="fa fa-linkedin">
+            						</i>
+            					</a>
+            				</li>
+            				<li>
+            					<a title="Click para chatear" href="https://api.whatsapp.com/send?phone=7772874694&text=Me%20estoy contactando%20a%20través%20de%20parataxis%20" target="_blank" rel="noopener">
+            						<i class="fa fa-whatsapp">
+            						</i>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+        <footer class="footer" align="center">
+        	<hr>
+        	<p>
+        		<a href="index.html">www.parataxis.com.mx
+        		</a>
+        	</p>
+        </footer>
+        <!-- SCRIPTS -->
+        <script>
+        	$(document).ready(function(){
+        		$('.slider1').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider2').bxSlider({
+        			mode: 'fade',
+        		});
+        		$('.slider3').bxSlider({
+        			mode: 'fade',
+        		});
+        	});
+        </script>
+    </div>
+</body>
+</html>
